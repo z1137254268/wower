@@ -23,7 +23,7 @@ systemctl restart wower
 systemctl stop wower
 ```
 
-## 设置
+## 更改设置
 后续更改矿池等设置，可直接替换使用以下命令：
 
 ```
@@ -36,6 +36,8 @@ sed -i 's/"pass": *"[^"]*",/"pass": "矿工名字",/' $HOME/wower/config.json
 # 开启后台模式
 sed -i 's/"background": *false,/"background": true,/' $HOME/wower/config.json
 ```
+
+## 反馈交流：[VPS讨论群](https://t.me/vpsqun)
 
 ## 捐赠
 如果您觉得脚本对您有用，可以请我喝杯咖啡。
