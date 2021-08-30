@@ -28,13 +28,13 @@ systemctl stop wower
 
 ```
 # 设置挖矿地址和端口
-sed -i 's/"url": *"[^"]*",/"url": "挖矿地址:端口",/' $HOME/wower/config.json
+sed -i 's/"url": *"[^"]*",/"url": "挖矿地址:端口",/' $HOME/wower/build/config.json
 # 设置钱包地址
-sed -i 's/"user": *"[^"]*",/"user": "钱包地址",/' $HOME/wower/config.json
+sed -i 's/"user": *"[^"]*",/"user": "钱包地址",/' $HOME/wower/build/config.json
 # 设置矿工名字
-sed -i 's/"pass": *"[^"]*",/"pass": "矿工名字",/' $HOME/wower/config.json
+sed -i 's/"pass": *"[^"]*",/"pass": "矿工名字",/' $HOME/wower/build/config.json
 # 开启后台模式
-sed -i 's/"background": *false,/"background": true,/' $HOME/wower/config.json
+sed -i 's/"background": *false,/"background": true,/' $HOME/wower/build/config.json
 ```
 
 
