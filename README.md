@@ -33,7 +33,9 @@ sed -i 's/"url": *"[^"]*",/"url": "挖矿地址:端口",/' $HOME/wower/build/con
 sed -i 's/"user": *"[^"]*",/"user": "钱包地址",/' $HOME/wower/build/config.json
 # 设置矿工名字
 sed -i 's/"pass": *"[^"]*",/"pass": "矿工名字",/' $HOME/wower/build/config.json
-# 开启后台模式
+# 开启1gb-pages
+sed -i 's/"1gb-pages": *false,/"1gb-pages": true,/' $HOME/wower/build/config.json
+# 开启后台模式（无需设置）
 sed -i 's/"background": *false,/"background": true,/' $HOME/wower/build/config.json
 ```
 
