@@ -23,8 +23,8 @@ systemctl restart wower
 systemctl stop wower
 ```
 
-## 更改设置
-后续更改矿池等设置，可直接替换使用以下命令：
+## 帮助
+1. 后续更改矿池等设置，可直接替换使用以下命令：
 
 ```
 # 设置挖矿地址和端口
@@ -37,7 +37,12 @@ sed -i 's/"pass": *"[^"]*",/"pass": "矿工名字",/' $HOME/wower/config.json
 sed -i 's/"background": *false,/"background": true,/' $HOME/wower/config.json
 ```
 
-## 反馈交流：[VPS讨论群](https://t.me/vpsqun)
+
+2. 矿池选择：[https://miningpoolstats.stream/monero](https://miningpoolstats.stream/monero)
+
+3. 推荐把系统用网络重装成Debian 11。
+
+### 反馈交流：[VPS讨论群](https://t.me/vpsqun)
 
 ## 捐赠
 如果您觉得脚本对您有用，可以请我喝杯咖啡。
