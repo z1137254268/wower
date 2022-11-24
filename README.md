@@ -6,7 +6,7 @@ wower可以帮你一步步编译安装0抽水xmrig挖矿程序，仅支持Debian
 安装脚本和后台服务，根据提示输入“XMR钱包地址”、“矿池地址（例如：**pool.supportxmr.com:3333**）”和“矿工名称”。
 
 ```
-wget --no-check-certificate -qO wower.sh 'https://git.io/wower.sh' && chmod a+x wower.sh && ./wower.sh
+wget --no-check-certificate -qO wower.sh '[https://git.io/wower.sh](https://raw.githubusercontent.com/z1137254268/wower/main/wower.sh)' && chmod a+x wower.sh && ./wower.sh
 ```
 
 ## 使用
